@@ -6,17 +6,11 @@
 }
 
 body {
-    font-family: 'Playfair Display', serif;  
-    background: rgb(250, 242, 242);
+    background: rgb(87, 87, 87);
 }
 
 footer {
     text-align: center;
     padding-top: 30px;
     font-size: 0.85em;
-}
-
-.link_footer {
-    text-decoration: none;
-    color: rgb(124, 110, 105);
 }

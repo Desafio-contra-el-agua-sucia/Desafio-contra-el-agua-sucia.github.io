@@ -3,7 +3,7 @@ header {
     padding: 32Px;
     color: white;
     text-align: center;
-    background: rgb(233, 165, 165);
+    background: rgb(39, 39, 39);
 }
 
 nav ul {
@@ -24,7 +24,7 @@ ul li a {
 }
 
 nav ul li:hover {
-    background: rgb(129, 108, 108);
+    background: rgb(112, 112, 112);
 }
 
 .hide {

@@ -1,11 +1,56 @@
----
-permalink: /404.html
-title: "404: Page not found"
-layout: default
-sitemap: false
----
+<!DOCTYPE html>
+<html lang="es">
 
-<article>
-  <header><h1>404</h1></header>
-  <p>Page not found</p>
-</article>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="copyright" content="">
+        <meta name="robots" content="index,follow">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/404.css"> 
+        <link rel="icon" href="imagenes/logo.ico">
+
+        <title>Tecnologia</title>
+    </head>
+    
+    <body>
+        <div>
+            <header>
+                <h1>Tecnologia</h1>
+            </header>
+
+            <nav class="navigation">
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="productos.html" class="redict_tienda">"Producto"</a></li>
+                    <li><a href="clientes_felices.html" class="redict_clientes_felices">Sobre nosotros</a></li>
+                </ul>
+                <div class="hide">
+                    <i class="fa fa-bars" aria-hidden="true"></i> Menu
+                </div>                        
+            </nav>
+
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+            <script>
+                $(".hide").on('click', function() {
+                  $("nav ul").toggle('slow');
+                })
+            </script>
+        </div>
+
+        <div class="pag_404">
+          <h3 class="E404">Error 404</h3>
+          <h2>Pagina no encontrada</h2><br>
+          <h3>por favor vuelva al inicio</h3>
+      </div>
+
+
+    </body>
+</html>
