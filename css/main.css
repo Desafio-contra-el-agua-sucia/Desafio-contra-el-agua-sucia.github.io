@@ -21,11 +21,13 @@ div.general{
     margin: auto;
     margin-top: 23px;
     width: 88%;
+    ;
     background-color: rgb(173, 173, 173);
     padding-top: 25px;
 }
 
 div.info{
     margin: auto;
+    margin-top: 10px;
     width: 94%;
 }

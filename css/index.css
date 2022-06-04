@@ -1,0 +1,22 @@
+div#texto_1{
+    display: inline-block;
+    position:absolute ;
+    width: 56%;
+    margin-left: 3%;
+}
+
+div#imagen_1{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+}
+
+img.imagen_1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+h2#titulo_problematica{
+    padding-top: 14px;
+}
