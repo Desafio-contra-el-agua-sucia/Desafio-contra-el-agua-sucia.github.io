@@ -1,0 +1,13 @@
+img#Imagen_quienes_somos{
+    margin-left: 25%;
+    margin-bottom: 2.5%;
+    width: 50%;
+}
+
+h2.titulo_quienes_somos{
+    text-align: center;
+}
+
+p.texto_quienes_somos{
+    text-align: center;
+}
