@@ -6,14 +6,6 @@ div.info1{
     overflow: hidden;
 }
 
-div#texto_1{
-    display: inline-block;
-    position:absolute ;
-    width: 50%;
-    margin-left: 3%;
-    overflow: hidden;
-}
-
 div.imagen1{
     display: inline-block;
     width: 30%;
@@ -26,11 +18,19 @@ img#imagen_1{
     margin-bottom: 2%;
 }
 
+div#texto_1{
+    display: inline-block;
+    position:absolute ;
+    width: 50%;
+    margin-left: 3%;
+    overflow: hidden;
+}
+
 h2#titulo_problematica{
     padding-top: 2.6%;
 }
 
-.texto_problematica{
+p.texto_problematica{
     font-size: 25px;
 }
 
@@ -91,4 +91,94 @@ img#imagen_2{
     p {
         font-size: 14px !important
     }
+}
+
+@media (max-width: 710px) {
+    p {
+        font-size: 13px !important
+    }
+}
+
+@media (max-width: 660px) {
+    p {
+        font-size: 12px !important
+    }
+}
+
+@media (max-width: 620px) {
+    p {
+        font-size: 11px !important
+    }
+}
+
+@media (max-width: 570px) {
+    p {
+        font-size: 10px !important
+    }
+}
+
+@media (max-width: 520px) {
+    p {
+        font-size: 9px !important
+    }
+}
+
+@media (max-width: 470px) {
+    p {
+        font-size: 8px !important
+    }
+}
+
+@media (max-width: 420px) {
+    p {
+        font-size: 7px !important
+    }
+}
+
+@media (max-width: 370px) {
+    p {
+        font-size: 6px !important
+    }
+}
+
+@media (max-width: 320px) {
+    p {
+        font-size: 5px !important
+    }
+}
+
+@media (max-width: 950px) {
+  
+    div.info1{
+      margin-bottom: 35%;
+    }
+  
+    div.imagen1{
+      display: block;
+      margin: auto;
+      width: 40%;
+    }
+  
+    div.texto_1{
+      display: block;
+      margin: auto;
+    }
+}
+  
+@media (max-width: 720px) {
+    
+    *{
+      font-size: 15px;
+    }
+  
+    div.texto2{
+      width: 100%;
+      padding-right: 10px;
+    }
+
+    div.imagen2{
+        padding-top: 0;
+        margin-left: 3em;
+    }
+  
 }

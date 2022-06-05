@@ -19,6 +19,7 @@ footer {
 
 div.general{
     margin: auto;
+    overflow: hidden;
     margin-top: 23px;
     margin-bottom: 0.8%;
     width: 78%;
@@ -132,3 +133,5 @@ section {
     line-height: 1.8;
   }
 }
+
+
