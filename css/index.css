@@ -64,17 +64,18 @@ h2.titulo_idea{
 
 p.texto_idea{
     padding-top: 0.5em;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 img#imagen_2{
     width: 97%;
     height: auto;
+    margin-bottom: 4%;
 }
 
 @media (max-width: 1290px) {
     p {
-        font-size: 20px !important
+        font-size: 21px !important
     }
 }
 @media (max-width: 1064px) {
