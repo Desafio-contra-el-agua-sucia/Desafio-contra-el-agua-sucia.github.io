@@ -8,7 +8,7 @@ div.info1{
 
 div.imagen1{
     display: inline-block;
-    width: 30%;
+    width: 35%;
     height: auto;
 }
 
@@ -21,7 +21,7 @@ img#imagen_1{
 div#texto_1{
     display: inline-block;
     position:absolute ;
-    width: 50%;
+    width: 46%;
     margin-left: 3%;
     overflow: hidden;
 }
