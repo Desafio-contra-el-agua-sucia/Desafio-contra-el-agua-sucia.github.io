@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
 }
 
 body {
-    background: rgb(87, 87, 87);
+    background: rgb(14, 14, 14);
 }
 
 footer {
@@ -23,7 +24,7 @@ div.general{
     margin-top: 23px;
     margin-bottom: 0.8%;
     width: 78%;
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(31, 31, 31);
     padding-top: 25px;
 }
 
