@@ -36,6 +36,13 @@ nav ul li:hover {
     display: none;
 }
 
+#Menu{
+    display: inline-block;
+    margin-left: 4px;
+    
+}
+
+
 @media (max-width: 768px) {
     ul li {
       width: 100%;
@@ -51,4 +58,22 @@ nav ul li:hover {
     display: none;
   
     }
-  }
+}
+
+@media (max-width: 720px) {
+    
+    #Menu{
+        display: inline-block;
+        margin-left: 4px;
+        font-size: 15px;        
+    }    
+
+}
+
+@media (max-width: 720px) {
+    
+    #Menu{
+        font-size: 13.5px;        
+    }    
+
+}

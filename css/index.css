@@ -170,6 +170,10 @@ img#imagen_2{
     *{
       font-size: 15px;
     }
+
+    *,body,div,nav,div{
+        font-size: 1em;
+    }
   
     div.texto2{
       width: 100%;
