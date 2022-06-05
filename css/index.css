@@ -1,27 +1,94 @@
+div.info1{
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    width: 94%;
+    overflow: hidden;
+}
+
 div#texto_1{
     display: inline-block;
     position:absolute ;
-    width: 56%;
+    width: 50%;
     margin-left: 3%;
+    overflow: hidden;
 }
 
-div#imagen_1{
+div.imagen1{
     display: inline-block;
     width: 30%;
     height: auto;
 }
 
-img.imagen_1{
+img#imagen_1{
     width: 100%;
     height: auto;
-    margin-bottom: 8px;
+    margin-bottom: 2%;
 }
 
 h2#titulo_problematica{
-    padding-top: 14px;
+    padding-top: 2.6%;
 }
 
 .texto_problematica{
     font-size: 25px;
 }
 
+
+/* texto idea */
+
+div.info2{
+    margin: auto;
+    margin-top: 1.5%;
+    overflow: hidden;
+}
+
+div.texto2{    
+    margin: auto;
+    float: left;
+    padding: 0.5em 0 1em 2.5em;
+    width: 56%;
+}
+
+div.imagen2{
+    display: inline-block;
+    padding-top: 5em;
+    width: 40%;
+    margin-left: 2%;
+}
+
+h2.titulo_idea{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+p.texto_idea{
+    padding-top: 0.5em;
+    font-size: 23px;
+}
+
+img#imagen_2{
+    width: 97%;
+    height: auto;
+}
+
+@media (max-width: 1290px) {
+    p {
+        font-size: 20px !important
+    }
+}
+@media (max-width: 1064px) {
+    p {
+        font-size: 18px !important
+    }
+}
+@media (max-width: 940px) {
+    p {
+        font-size: 16px !important
+    }
+}
+@media (max-width: 860px) {
+    p {
+        font-size: 14px !important
+    }
+}

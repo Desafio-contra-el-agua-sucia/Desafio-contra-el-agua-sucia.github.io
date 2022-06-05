@@ -21,16 +21,11 @@ div.general{
     margin: auto;
     margin-top: 23px;
     margin-bottom: 0.8%;
-    width: 88%;
+    width: 78%;
     background-color: rgb(173, 173, 173);
     padding-top: 25px;
 }
 
-div.info{
-    margin: auto;
-    margin-top: 10px;
-    width: 94%;
-}
 
 /* Footer */
 
