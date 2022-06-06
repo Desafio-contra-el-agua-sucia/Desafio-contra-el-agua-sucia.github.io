@@ -8,8 +8,9 @@ div.info_SN{
 
 div.divImagen_quienes_somos{
     display: inline-block;
-    width: 100%;
     height: auto;
+    width: 100%;
+    padding-top: 6%;
 
 }
 
@@ -67,6 +68,12 @@ p.texto_quienes_somos{
     p {
         font-size: 14px !important
     }
+
+    footer{
+        position: absolute;
+        top: 80%;
+    }
+
 }
 
 @media (max-width: 570px) {
@@ -83,7 +90,7 @@ p.texto_quienes_somos{
 
 @media (max-width: 450px) {
     p {
-        font-size: 11px !important
+        font-size: 11px !important;
     }
 }
 
@@ -125,9 +132,6 @@ p.texto_quienes_somos{
   
 @media (max-width: 720px) {
     
-    *{
-      font-size: 15px;
-    }
 
     *,body,div,nav,div{
         font-size: 24px;

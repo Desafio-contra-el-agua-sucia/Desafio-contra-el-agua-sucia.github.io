@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Kdam Thmor Pro', sans-serif;
     color: white;
+    user-select: none;
 }
 
 body {
