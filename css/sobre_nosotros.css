@@ -71,8 +71,13 @@ p.texto_quienes_somos{
 
     footer{
         position: absolute;
-        top: 80%;
+        top: 60%;
     }
+
+    div.info_SN{
+        margin-bottom: 4vh;
+    }
+
 
 }
 
@@ -80,18 +85,48 @@ p.texto_quienes_somos{
     p {
         font-size: 14px !important
     }
+
+    footer{
+        position: absolute;
+        top: 65%;
+    }
+
+    div.info_SN{
+        margin-bottom: 9vh;
+    }
+
 }
 
 @media (max-width: 520px) {
     p {
         font-size: 14px !important
     }
+
+    footer{
+        position: absolute;
+        top: 65%;
+    }
+
+    div.info_SN{
+        margin-bottom: 10vh;
+    }
+
 }
 
 @media (max-width: 450px) {
     p {
         font-size: 11px !important;
     }
+
+    footer{
+        position: absolute;
+        top: 69%;
+    }
+
+    div.info_SN{
+        margin-bottom: 13vh;
+    }
+
 }
 
 @media (max-width: 420px) {
@@ -109,6 +144,10 @@ p.texto_quienes_somos{
 @media (max-width: 320px) {
     p {
         font-size: 10px !important
+    }
+
+    div.info_SN{
+        margin-bottom: 18vh;
     }
 }
 
