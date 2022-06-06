@@ -100,7 +100,7 @@ img#imagen_2{
     }
 }
 
-@media (max-width: 660px) {
+/*@media (max-width: 660px) {
     p {
         font-size: 14px !important
     }
@@ -173,7 +173,7 @@ img#imagen_2{
     }
 
     *,body,div,nav,div{
-        font-size: 1em;
+        font-size: 26px;
     }
   
     div.texto2{
